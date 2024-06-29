@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding: 0;
+   box-sizing:  border-box;
+}
+
+.whole{
+    display: flex;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.sidemenuBar{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-img{
+    height: 24px;
+    width: 24px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.menuBox{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+}
+
+
+/* middle part css */
+.middle{
+    display: flex;
+    flex-direction: column;
+}
+
+.story-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 15px;
+}
+
+.story{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.story-img{
+    height: 84px;
+    width: 64px;
+    padding-bottom: 4px;
+    border-radius: 50%;
+    border: 1px solid red;
+    padding: 2px;
+}
+
+.story-tag{
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* post-section css */
+
+.about-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.list-group-item{
+    border: none !important;
+}
+
+.post_info{
+    line-height: 8px;
+}
+.a_left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.user-img{
+    width: 32px;
+    height: 32px;
+    padding-bottom: 4px;
+    border-radius: 50%;
+    border: 1px solid red;
+    padding: 2px;
+}
+
+.post_img{
+    width: 450px; 
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tick-img{
+    width: 15px;
+    height: 15px;
+    padding-bottom: 4px;
+    border-radius: 50%;
+    color: black;
+    align-items: center;
+    margin: auto;
+}
+
+.user, time{
+    font-weight: 600;
+    font-size: 14px;
+    justify-content: center;
+}
+
+.post_nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.left_post_nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.comment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.post{
+    border-bottom: 1px solid grey;
+    padding: 5px;
+}
